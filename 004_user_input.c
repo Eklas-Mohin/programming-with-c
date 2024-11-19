@@ -19,5 +19,3 @@ int main() {
 
     return 0;
 }
-
-// scanf() is a function used to take input
