@@ -2,42 +2,42 @@
 
 int main() {
     // Integer types
-    int a = 42;
-    unsigned int b = 100;
-    long c = 1234567890;
-    short d = 10;
+    int age = 42;
+    unsigned int number_of_items = 100;
+    long population_of_city = 1234567890;
+    short number_of_students = 10;
     
     // Floating-point types
-    float e = 3.14159;
-    double f = 2.718281828459;
+    float pi_value = 3.14159;
+    double euler_number = 2.718281828459;
     
     // Character type
-    char g = 'A';
+    char grade = 'A';
     
     // String type
-    char str[] = "Hello, World!";
+    char greeting_message[] = "Hello, World!";
     
     // Format specifiers demonstration
-    printf("Integer (%%d): %d\n", a);               // %d for integer
-    printf("Unsigned Integer (%%u): %u\n", b);      // %u for unsigned integer
-    printf("Long Integer (%%ld): %ld\n", c);        // %ld for long integer
-    printf("Short Integer (%%hd): %hd\n", d);       // %hd for short integer
+    printf("Age (%%d): %d\n", age);                     // %d for integer
+    printf("Number of Items (%%u): %u\n", number_of_items); // %u for unsigned integer
+    printf("Population of City (%%ld): %ld\n", population_of_city); // %ld for long integer
+    printf("Number of Students (%%hd): %hd\n", number_of_students); // %hd for short integer
 
-    printf("Float (%%f): %f\n", e);                 // %f for float
-    printf("Double (%%lf): %lf\n", f);              // %lf for double
-    printf("Exponential (%%e): %e\n", f);           // %e for exponential notation
+    printf("Pi Value (%%f): %f\n", pi_value);           // %f for float
+    printf("Euler Number (%%lf): %lf\n", euler_number); // %lf for double
+    printf("Euler Number in Exponential (%%e): %e\n", euler_number); // %e for exponential notation
 
-    printf("Character (%%c): %c\n", g);             // %c for single character
-    printf("String (%%s): %s\n", str);              // %s for string
+    printf("Grade (%%c): %c\n", grade);                 // %c for single character
+    printf("Greeting Message (%%s): %s\n", greeting_message); // %s for string
 
     // Demonstrating hexadecimal and octal numbers
-    printf("Hexadecimal (%%x): %x\n", a);           // %x for hexadecimal
-    printf("Hexadecimal (%%X): %X\n", a);           // %X for uppercase hexadecimal
-    printf("Octal (%%o): %o\n", a);                 // %o for octal
+    printf("Age in Hexadecimal (%%x): %x\n", age);      // %x for hexadecimal
+    printf("Age in Uppercase Hexadecimal (%%X): %X\n", age); // %X for uppercase hexadecimal
+    printf("Age in Octal (%%o): %o\n", age);            // %o for octal
 
     // Additional formatting
-    printf("Width and precision (%%10.2f): %10.2f\n", e); // %10.2f for float with width 10 and 2 decimal places
-    printf("Padded integer (%%05d): %05d\n", a);           // %05d to pad with zeros
+    printf("Pi Value with Width and Precision (%%10.2f): %10.2f\n", pi_value); // %10.2f for float with width 10 and 2 decimal places
+    printf("Age Padded with Zeros (%%05d): %05d\n", age);                      // %05d to pad with zeros
 
     return 0;
 }
