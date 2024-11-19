@@ -1,29 +1,33 @@
 #include <stdio.h>
 
 int main() {
-    int a; // Variable Declaration
-    a = 6; // Variable Initializtion
-    printf("value stored in a is %d\n", a);
+    // Integer type demonstration
+    int a;         // Variable Declaration
+    a = 6;         // Variable Initialization
+    printf("value stored in a is %d\n", a); // Prints the value of a
 
-    char c = 'm'; // Dealaration & Initialization
+    // Character type demonstration
+    char c = 'm';  // Declaration & Initialization
     printf("c = %c\n", c);
 
+    // Floating-point type demonstration
     float f = 73.372112f;
-    printf("f = %f\n", f); // 73.372108
+    printf("f = %f\n", f); // Prints the value of f (may have slight precision differences)
 
-    double d = 73.372112; 
-    printf("d = %lf\n", d); // 73.372112
+    // Double precision floating-point demonstration
+    double d = 73.372112;
+    printf("d = %lf\n", d);
 
-    // Size of C variables depends on machine's Architecture
-    printf("Size of char: %zu bytes\n", sizeof(char)); // 1 bytes
-    printf("Size of short: %zu bytes\n", sizeof(short)); // 2 bytes
-    printf("Size of int: %zu bytes\n", sizeof(int)); // 4 bytes
-    printf("Size of long: %zu bytes\n", sizeof(long)); // 8 bytes
-    printf("Size of long long: %zu bytes\n", sizeof(long long)); // 8 bytes
-    printf("Size of float: %zu bytes\n", sizeof(float)); // 4 bytes
-    printf("Size of double: %zu bytes\n", sizeof(double)); // 8 bytes
-    printf("Size of long double: %zu bytes\n", sizeof(long double)); // 16 bytes
-    printf("Size of void pointer: %zu bytes\n", sizeof(void*)); // 8 bytes
+    // Size of C variables depends on machine's architecture
+    printf("Size of char: %zu bytes\n", sizeof(char));             // Usually 1 byte
+    printf("Size of short: %zu bytes\n", sizeof(short));           // Usually 2 bytes
+    printf("Size of int: %zu bytes\n", sizeof(int));               // Usually 4 bytes
+    printf("Size of long: %zu bytes\n", sizeof(long));             // Usually 8 bytes on 64-bit systems
+    printf("Size of long long: %zu bytes\n", sizeof(long long));   // Usually 8 bytes
+    printf("Size of float: %zu bytes\n", sizeof(float));           // Usually 4 bytes
+    printf("Size of double: %zu bytes\n", sizeof(double));         // Usually 8 bytes
+    printf("Size of long double: %zu bytes\n", sizeof(long double)); // Usually 16 bytes
+    printf("Size of void pointer: %zu bytes\n", sizeof(void*));    // Usually 8 bytes on 64-bit systems
 
     return 0;
 }
