@@ -11,8 +11,8 @@ int main() {
     float f = 73.372112f;
     printf("f = %f\n", f); // 73.372108
 
-    float d = 73.372112; 
-    printf("d = %lf\n", d); // 73.372108
+    double d = 73.372112; 
+    printf("d = %lf\n", d); // 73.372112
 
     // Size of C variables depends on machine's Architecture
     printf("Size of char: %zu bytes\n", sizeof(char)); // 1 bytes
