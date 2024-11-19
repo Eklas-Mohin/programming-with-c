@@ -3,14 +3,13 @@
 int main() {
     int a = 20;
     int b = 10;
-    int addition, subtraction, multiplication, division, remainder;
 
     // Arithmetic operations
-    addition = a + b;
-    subtraction = a - b;
-    multiplication = a * b;
-    division = a / b;
-    remainder = a % b;
+    int addition = a + b;
+    int subtraction = a - b;
+    int multiplication = a * b;
+    int division = a / b;
+    int remainder = a % b;
 
     // Display results
     printf("Value of a: %d\n", a);
