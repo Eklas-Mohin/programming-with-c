@@ -17,29 +17,3 @@ int main() {
 
     return 0;
 }
-
- /* 
-        result = 3 * 6 / 2 * 9 + 7 * 3
-        result = 18 / 2 * 9 + 7 * 3
-        result = 9 * 9 + 7 * 3
-        result = 81 + 21
-        result = 102
-*/   
-
-/*
-        Priority           Operators
-         
-        1st                 * / %
-
-        2nd                 + -
-
-        3rd                  =
-
-        Operator Associativity
-
-        x * y / z -->  (x * y) / z
-
-        x / y * z -->  (x / y) * z
-
-        *, /, % follows left to right associativity
-*/
