@@ -5,34 +5,32 @@ int main() {
 
     // Check with positive integer
     if (1) {
-        printf("1 -> True\n");
+        printf("1 -> Returns 1 which means True\n");
     }
-
     // Check with negative integer
     if (-7) {
-        printf("-7 -> True\n");
+        printf("-7 -> Returns 1 which means True\n");
     }
 
     // Check with zero
     if (0) {
-        printf("0 -> True\n");
+        printf("0 -> Returns 1 which means True\n");
     } else {
-        printf("0 -> False\n");
+        printf("0 -> Returns 0 which means False\n");
     }
 
     // Check with character
     if ('c') {
-        printf("'c' -> True\n");
+        printf("'c' -> Returns 1 which means True\n");
     }
 
     // Check with non-empty string
     if ("string") {
-        printf("\"string\" -> True\n");
+        printf("\"string\" -> Returns 1 which means True\n");
     }
-
     // Check with empty string
     if ("") {
-        printf("\"\" -> True\n\n");
+        printf("\"\" -> Returns 1 which means True\n\n");
     }
 
     return 0;
