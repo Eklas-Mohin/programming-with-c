@@ -18,7 +18,7 @@ int main() {
     double double_num = 7.56;
     int converted_num;
 
-    // Explicit conversion using cast operator
+    // Explicit conversion using cast operator / Type Casting
     converted_num = (int)double_num; // double_num is explicitly converted to int
 
     printf("Explicit Type Conversion:\n");
