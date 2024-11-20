@@ -1,34 +1,38 @@
 #include <stdio.h>
 
 int main() {
-    printf("Anything except 0 is true in C\n");
+    printf("\nAnything except 0 is true in C\n\n");
 
+    // Check with positive integer
     if (1) {
-        printf("1: This statement will be executed\n");
+        printf("1 -> True\n");
     }
 
-    if (6) {
-        printf("6: This statement will be executed\n");
+    // Check with negative integer
+    if (-7) {
+        printf("-7 -> True\n");
     }
 
-    if (-6) {
-        printf("-6: This statement will be executed\n");
-    }
-
+    // Check with zero
     if (0) {
-        printf("0: This statement won't be executed\n");
+        printf("0 -> True\n");
+    } else {
+        printf("0 -> False\n");
     }
 
+    // Check with character
     if ('c') {
-        printf("'c': This statement will be executed\n");
+        printf("'c' -> True\n");
     }
 
-    if ("False or True doesn't matter") {
-        printf("False or True: This statement will be executed\n");
+    // Check with non-empty string
+    if ("string") {
+        printf("\"string\" -> True\n");
     }
 
+    // Check with empty string
     if ("") {
-        printf("False or True: This statement will be executed\n");
+        printf("\"\" -> True\n\n");
     }
 
     return 0;
